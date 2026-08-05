@@ -8,7 +8,9 @@ La página presenta una propuesta sencilla: transformar tareas manuales, informa
 
 ## Contenido
 
-- `index.html`: estructura y contenido de la página.
+- `index.html`: versión principal en castellano.
+- `ca/index.html`: versión en catalán.
+- `en/index.html`: versión en inglés.
 - `styles.css`: identidad visual, animaciones y adaptación a dispositivos móviles.
 - `script.js`: apariciones progresivas, contadores y comportamiento de navegación.
 - `assets/hero-transformation.jpg`: imagen editorial original del encabezado.
@@ -28,6 +30,16 @@ Después, visita `http://localhost:8000`.
 ## Publicación
 
 La web se publica desde la rama `main` mediante GitHub Pages. Al ser estática, también funciona en cualquier servicio compatible con HTML, CSS y JavaScript.
+
+### Idiomas
+
+Cada idioma tiene una URL estable y metadatos propios para buscadores:
+
+- Castellano: `/canvidaweb/`
+- Catalán: `/canvidaweb/ca/`
+- Inglés: `/canvidaweb/en/`
+
+Las etiquetas `canonical` y `hreflang` conectan las tres versiones. Al actualizar contenido comercial, revisa las tres páginas para mantenerlas equivalentes.
 
 ## Mantenimiento
 
