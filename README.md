@@ -1,12 +1,17 @@
 # CanVidaWeb
 
-Landing page pública de MA Consultoría Digital, enfocada en servicios de automatización, digitalización y mejora de procesos para pequeñas empresas y negocios locales.
+Web comercial de MA, enfocada en convertir visitas de pequeñas empresas y negocios locales en conversaciones sobre automatización, digitalización y mejora de procesos.
+
+## Objetivo comercial
+
+La página presenta una propuesta sencilla: transformar tareas manuales, información dispersa y procesos frágiles en sistemas claros que ahorran tiempo. El recorrido conduce desde el problema hasta las soluciones, el método de trabajo y un contacto directo por correo.
 
 ## Contenido
 
 - `index.html`: estructura y contenido de la página.
-- `styles.css`: diseño visual y adaptación a dispositivos móviles.
-- `script.js`: actualización automática del año mostrado en el pie de página.
+- `styles.css`: identidad visual, animaciones y adaptación a dispositivos móviles.
+- `script.js`: apariciones progresivas, contadores y comportamiento de navegación.
+- `assets/hero-transformation.jpg`: imagen editorial original del encabezado.
 
 El proyecto no utiliza frameworks, dependencias ni proceso de compilación.
 
@@ -22,7 +27,14 @@ Después, visita `http://localhost:8000`.
 
 ## Publicación
 
-La web es estática y puede publicarse directamente desde la raíz del repositorio con GitHub Pages o cualquier servicio compatible con HTML, CSS y JavaScript estáticos.
+La web se publica desde la rama `main` mediante GitHub Pages. Al ser estática, también funciona en cualquier servicio compatible con HTML, CSS y JavaScript.
+
+## Mantenimiento
+
+- Mantén el mensaje principal y la llamada a la acción visibles sin depender de JavaScript.
+- Optimiza las imágenes antes de publicarlas para evitar tiempos de carga innecesarios.
+- Comprueba las versiones móvil y escritorio después de cambiar estilos o contenido.
+- Los botones de contacto usan enlaces `mailto:` y no almacenan datos personales.
 
 ## Privacidad
 
