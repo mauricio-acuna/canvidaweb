@@ -36,7 +36,7 @@ La versión publicada está disponible en **[mauricio-acuna.github.io/canvidaweb
 
 CanVidaWeb es la página principal de contacto de MA. Está diseñada para convertir visitas de pymes, profesionales y negocios locales en conversaciones comerciales sobre automatización y mejora de procesos.
 
-La propuesta de valor se articula alrededor de un problema concreto: transformar tareas manuales, información dispersa y procesos frágiles en sistemas claros que ahorran tiempo y devuelven el control del negocio.
+La propuesta de valor se articula alrededor de un problema concreto: diseñar sistemas orientados a reducir tareas manuales, ordenar información dispersa y mejorar el control. Los resultados se miden en cada intervención; la web no promete un ahorro predeterminado.
 
 El recorrido de la página conduce al visitante por cinco etapas:
 
@@ -58,11 +58,15 @@ El recorrido de la página conduce al visitante por cinco etapas:
 - Compatibilidad con `prefers-reduced-motion`.
 - Contenido principal disponible aunque JavaScript esté desactivado.
 - Imagen editorial optimizada para reducir el tiempo de carga.
-- Sin cookies, formularios remotos, rastreadores ni almacenamiento de datos personales.
+- Sin formulario servidor ni herramienta analítica implementada en el código del sitio.
+- El contacto abre el cliente de correo mediante `mailto:`; el envío y tratamiento posterior dependen de los proveedores de correo y de la política de privacidad aplicable.
+- Las tipografías se cargan actualmente desde Google Fonts, por lo que el navegador realiza conexiones a terceros; está pendiente decidir entre autoalojarlas o documentar/evaluar esa dependencia.
 
 ## Tecnología
 
 La web utiliza HTML, CSS y JavaScript nativos. No requiere frameworks, dependencias, gestor de paquetes ni proceso de compilación.
+
+La única dependencia remota visible en el código es Google Fonts. Esta afirmación debe volver a verificarse con las herramientas de red del navegador después de cada cambio.
 
 ```text
 canvidaweb/
